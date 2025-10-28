@@ -1,12 +1,12 @@
 # 61st-Liberation-mission
 [KP Liberation](https://www.killahpotatoes.de/images/arma/liberation.png)
 
-///////////////////////////////////////////////////////////////////////////////
+
 //  KP Liberation - Adapted for the 61st Mechanized Infantry Battalion
 //  Original mission by the Killah Potatoes Community
 //  Adapted and maintained by the 61st MIB Mission Development Team
 //  Version: 1.0 (61st Altis)
-///////////////////////////////////////////////////////////////////////////////
+
 
 author = "Killah Potatoes Community | Adapted for the 61st Mechanized Infantry Battalion";
 onLoadName = "KP Liberation - Altis (61st Adaptation)";
