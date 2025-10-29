@@ -132,7 +132,9 @@ heavy_vehicles = [
     ["rhsusf_m1120a1_mk19_usarmy_wd",250,60,150],                       // M1120A1 (Mk19)
     ["rhsusf_m1120a1_m153_m2_usarmy_wd",275,40,150],                    // M1120A1 (M2 CROWS)
     ["rhsusf_m1120a1_m153_mk19_usarmy_wd",275,60,150],                  // M1120A1 (Mk19 CROWS)
-    ["rhsusf_m109_usarmy",600,1250,300]                                 // M109A6 Paladin
+    ["rhsusf_m109_usarmy",600,1250,300],                                 // M109A6 Paladin
+    ["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
+    ["RHS_M2A3_BUSKIII",300,250,175]                                   // M2A3 (Busk III)
 ];
 
 air_vehicles = [
@@ -171,7 +173,8 @@ air_vehicles = [
     ["fir_f16d_900482",1200,1250,400],                                  // F-16D Block dual seater
     ["fir_f16c_910345",1200,1250,400],                                  // F-16C Block single seater
     ["fir_fa18f_blank",1500,1750,450],                                  // F/A-18F Super Hornet Blank (dual seater)
-    ["fir_fa18e_vfa31cag",1500,1750,450]                                // F/A-18E Super Hornet VFA-31 CAG (single seater)
+    ["fir_fa18e_vfa31cag",1500,1750,450],                                // F/A-18E Super Hornet VFA-31 CAG (single seater)
+    ["RHS_AH1Z",500,500,200]                                            // AH-1Z (Multi-Role)
 ];
 
 static_vehicles = [
