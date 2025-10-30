@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=7370;
+		nextID=7371;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1087;
+		nextID=1105;
 	};
 	class Camera
 	{
 		pos[]={27349.518,102.39423,5294.7393};
-		dir[]={0.51492786,-0.54356933,0.66285872};
-		up[]={0.33346549,0.83936429,0.42926496};
-		aside[]={0.78971517,-1.4901161e-08,-0.61347365};
+		dir[]={0.45032594,-0.5955447,0.66523439};
+		up[]={0.33385092,0.80332124,0.49317369};
+		aside[]={0.82810402,2.348097e-07,-0.56057924};
 	};
 };
 binarizationWanted=0;
@@ -60,13 +60,14 @@ addons[]=
 	"A3_Structures_F_System",
 	"A3_Structures_F_Mil_Flags",
 	"rhsusf_c_troops",
-	"ace_compat_rhs_usf3"
+	"ace_compat_rhs_usf3",
+	"ace_fortify"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=15;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -161,6 +162,13 @@ class AddonsMetaData
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USAF Compatibility";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item14
+		{
+			className="ace_fortify";
+			name="ACE3 - Fortify";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
@@ -808,7 +816,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=524;
+		items=525;
 		class Item0
 		{
 			dataType="Marker";
@@ -12963,6 +12971,73 @@ class Mission
 			{
 			};
 			id=7364;
+		};
+		class Item524
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={27402.199,0,5402.3687};
+			};
+			id=7370;
+			type="acex_fortify_setupModule";
+			atlOffset=185.97;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_fortify_setupModule_Budget";
+					expression="_this setVariable ['Budget',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=-1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_fortify_setupModule_AddToolItem";
+					expression="_this setVariable ['AddToolItem',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_fortify_setupModule_Preset";
+					expression="_this setVariable ['Preset',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_fortify_setupModule_Side";
+					expression="_this setVariable ['Side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 	};
 	class Connections
