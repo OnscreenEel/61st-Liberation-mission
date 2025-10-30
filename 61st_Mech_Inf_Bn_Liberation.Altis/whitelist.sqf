@@ -17,5 +17,12 @@ GRLIB_whitelisted_steamids = [
 // Allowed individual player names. Note that this method is not very secure contrary to SteamIDs.
 // For exemple: "Zbug"
 GRLIB_whitelisted_names = [
+    "MAJ Carnage",                  //Outlaw Platoon leader
+    "CPT Cury",                     //Outlaw Executive Officer
+    "SSG Banjo",                    //Outlaw 1-2 Squad leader
+    "SSG Midlightt",                //Outlaw 1-1 Squad leader
+    "SGT OnscreenEel",              //Outlaw 1-2B Team leader and Server Owner
+    "SGT Ducky",                    //Outlaw 1-2A Team leader
+    "SFC Bigfoot"                   //Rhino Section leader
 
 ];

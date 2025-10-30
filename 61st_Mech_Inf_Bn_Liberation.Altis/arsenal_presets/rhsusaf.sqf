@@ -414,8 +414,10 @@ GRLIB_arsenal_magazines = [
 
 GRLIB_arsenal_items = [
     // Uniforms
-    "rhs_uniform_abu",                                              // Airman Battle Uniform
-    "U_Tweed_Summer_OCP",                                           // W28 OCP
+    "rhs_uniform_abu",  // Airman Battle Uniform
+    "U_Tweed_Summer_OCP",  // W28 OCP
+    "rhs_uniform_acu_oefcp",  // ACU OEF-CP
+    "rhs_uniform_acu_ocp",  // ACU OCP
     "U_tweed_acu_summer_ocp_jedi",
     "U_tweed_acu_summer_ocp_trop",
     "U_tweed_acu_summer_ocp_tuck",
@@ -429,156 +431,156 @@ GRLIB_arsenal_items = [
     "U_tweed_acu_summer_ocp_unbl_trop",
 
     // Headgear
-    "rhs_Booniehat_ocp",                                            // Booniehat OEF-CP
-    "RHS_jetpilot_usaf",                                            // Jet Pilot Helmet
-    "rhsusf_bowman_cap",                                            // Bowman Elite II (Cap)
-    "rhsusf_Bowman",                                                // Bowman Elite II
-    "rhsusf_cvc_alt_helmet",                                        // ACVC-H, MK-1697 (Tan/Alt.)
-    "rhsusf_cvc_ess",                                               // ACVC-H, MK-1697 (Tan/ESS)
-    "rhsusf_cvc_green_alt_helmet",                                  // ACVC-H, MK-1697 (Alt.)
-    "rhsusf_cvc_green_ess",                                         // ACVC-H, MK-1697 (ESS)
-    "rhsusf_cvc_green_helmet",                                      // ACVC-H, MK-1697
-    "rhsusf_cvc_helmet",                                            // ACVC-H, MK-1697 (Tan)
-    "rhsusf_hgu56p_black",                                          // HGU-56/P (Black)
-    "rhsusf_hgu56p_green",                                          // HGU-56/P (Green)
-    "rhsusf_hgu56p_mask_black_skull",                               // HGU-56/P (Black/Mask/Skull)
-    "rhsusf_hgu56p_mask_black",                                     // HGU-56/P (Black/Mask)
-    "rhsusf_hgu56p_mask_green_mo",                                  // HGU-56/P (Green/Mask/Mo)
-    "rhsusf_hgu56p_mask_green",                                     // HGU-56/P (Green/Mask)
-    "rhsusf_hgu56p_mask_mo",                                        // HGU-56/P (Olive/Mask/Mo)
-    "rhsusf_hgu56p_mask_pink",                                      // HGU-56/P (Pink/Mask)
-    "rhsusf_hgu56p_mask_saf",                                       // HGU-56/P (SAF/Mask)
-    "rhsusf_hgu56p_mask_skull",                                     // HGU-56/P (Olive/Mask/Skull)
-    "rhsusf_hgu56p_mask_smiley",                                    // HGU-56/P (Smiley/Mask)
-    "rhsusf_hgu56p_mask_tan",                                       // HGU-56/P (Tan/Mask)
-    "rhsusf_hgu56p_mask",                                           // HGU-56/P (Olive/Mask)
-    "rhsusf_hgu56p_pink",                                           // HGU-56/P (Pink)
-    "rhsusf_hgu56p_saf",                                            // HGU-56/P (SAF)
-    "rhsusf_hgu56p_tan",                                            // HGU-56/P (Tan)
-    "rhsusf_hgu56p_usa",                                            // HGU-56/P (USA)
-    "rhsusf_hgu56p_visor_black",                                    // HGU-56/P (Black/Visor)
-    "rhsusf_hgu56p_visor_green",                                    // HGU-56/P (Green/Visor)
-    "rhsusf_hgu56p_visor_mask_black_skull",                         // HGU-56/P (Black/Visor/Mask/Skull)
-    "rhsusf_hgu56p_visor_mask_black",                               // HGU-56/P (Black/Visor/Mask)
-    "rhsusf_hgu56p_visor_mask_Empire_black",                        // HGU-56/P (Black/Visor/Mask/Empire)
-    "rhsusf_hgu56p_visor_mask_green_mo",                            // HGU-56/P (Green/Visor/Mask/Mo)
-    "rhsusf_hgu56p_visor_mask_green",                               // HGU-56/P (Green/Visor/Mask)
-    "rhsusf_hgu56p_visor_mask_mo",                                  // HGU-56/P (Olive/Visor/Mask/Mo)
-    "rhsusf_hgu56p_visor_mask_pink",                                // HGU-56/P (Pink/Visor/Mask)
-    "rhsusf_hgu56p_visor_mask_saf",                                 // HGU-56/P (SAF/Visor/Mask)
-    "rhsusf_hgu56p_visor_mask_skull",                               // HGU-56/P (Olive/Visor/Mask/Skull)
-    "rhsusf_hgu56p_visor_mask_smiley",                              // HGU-56/P (Smiley/Visor/Mask)
-    "rhsusf_hgu56p_visor_mask_tan",                                 // HGU-56/P (Tan/Visor/Mask)
-    "rhsusf_hgu56p_visor_mask",                                     // HGU-56/P (Olive/Visor/Mask)
-    "rhsusf_hgu56p_visor_pink",                                     // HGU-56/P (Pink/Visor)
-    "rhsusf_hgu56p_visor_saf",                                      // HGU-56/P (SAF/Visor)
-    "rhsusf_hgu56p_visor_tan",                                      // HGU-56/P (Tan/Visor)
-    "rhsusf_hgu56p_visor_usa",                                      // HGU-56/P (USA/Visor)
-    "rhsusf_hgu56p_visor_white",                                    // HGU-56/P (White/Visor)
-    "rhsusf_hgu56p_visor",                                          // HGU-56/P (Olive/Visor)
-    "rhsusf_hgu56p_white",                                          // HGU-56/P (White)
-    "rhsusf_hgu56p",                                                // HGU-56/P (Olive)
-    "rhsusf_opscore_aor1_pelt_nsw",                                 // FAST Ballistic (AOR1/Headset/NSW)
-    "rhsusf_opscore_aor1_pelt",                                     // FAST Ballistic (AOR1/Headset)
-    "rhsusf_opscore_aor1",                                          // FAST Ballistic (AOR1)
-    "rhsusf_opscore_aor2_pelt_nsw",                                 // FAST Ballistic (AOR2/Headset/NSW)
-    "rhsusf_opscore_aor2_pelt",                                     // FAST Ballistic (AOR2/Headset)
-    "rhsusf_opscore_aor2",                                          // FAST Ballistic (AOR2)
-    "rhsusf_opscore_bk_pelt",                                       // FAST Ballistic (Black/Headset)
-    "rhsusf_opscore_bk",                                            // FAST Ballistic (Black)
-    "rhsusf_opscore_coy_cover_pelt",                                // FAST Ballistic (Coyote Cover/Headset/NSW)
-    "rhsusf_opscore_coy_cover",                                     // FAST Ballistic (Coyote Cover)
-    "rhsusf_opscore_fg_pelt_cam",                                   // FAST Ballistic (Foliage Green/Headset/Cam)
-    "rhsusf_opscore_fg_pelt_nsw",                                   // FAST Ballistic (Foliage Green/Headset/NSW)
-    "rhsusf_opscore_fg_pelt",                                       // FAST Ballistic (Foliage Green/Headset)
-    "rhsusf_opscore_fg",                                            // FAST Ballistic (Foliage Green)
-    "rhsusf_opscore_mar_fg_pelt",                                   // FAST Maritime (Foliage Green/Headset)
-    "rhsusf_opscore_mar_fg",                                        // FAST Maritime (Foliage Green)
-    "rhsusf_opscore_mar_ut_pelt",                                   // FAST Maritime (Urban Tan/Headset)
-    "rhsusf_opscore_mar_ut",                                        // FAST Maritime (Urban Tan)
-    "rhsusf_opscore_mc_cover_pelt_cam",                             // FAST Ballistic (Multicam Cover/Headset/NSW/Cam)
-    "rhsusf_opscore_mc_cover_pelt_nsw",                             // FAST Ballistic (Multicam Cover/Headset/NSW)
-    "rhsusf_opscore_mc_cover_pelt",                                 // FAST Ballistic (Multicam Cover/Headset)
-    "rhsusf_opscore_mc_cover",                                      // FAST Ballistic (Multicam Cover)
-    "rhsusf_opscore_mc_pelt_nsw",                                   // FAST Ballistic (Multicam Paint/Headset/NSW)
-    "rhsusf_opscore_mc_pelt",                                       // FAST Ballistic (Multicam Paint/Headset)
-    "rhsusf_opscore_mc",                                            // FAST Ballistic (Multicam Paint)
-    "rhsusf_opscore_paint_pelt_nsw_cam",                            // FAST Ballistic (Paint/Headset/NSW/Cam)
-    "rhsusf_opscore_paint_pelt_nsw",                                // FAST Ballistic (Paint/Headset/NSW)
-    "rhsusf_opscore_paint_pelt",                                    // FAST Ballistic (Paint/Headset)
-    "rhsusf_opscore_paint",                                         // FAST Ballistic (Paint)
-    "rhsusf_opscore_rg_cover_pelt",                                 // FAST Ballistic (Ranger Green Cover/Headset/NSW)
-    "rhsusf_opscore_rg_cover",                                      // FAST Ballistic (Ranger Green Cover)
-    "rhsusf_opscore_ut_pelt_cam",                                   // FAST Ballistic (Urban Tan/Headset/Cam)
-    "rhsusf_opscore_ut_pelt_nsw_cam",                               // FAST Ballistic (Urban Tan/Headset/NSW/Cam)
-    "rhsusf_opscore_ut_pelt_nsw",                                   // FAST Ballistic (Urban Tan/Headset/NSW)
-    "rhsusf_opscore_ut_pelt",                                       // FAST Ballistic (Urban Tan/Headset)
-    "rhsusf_opscore_ut",                                            // FAST Ballistic (Urban Tan)
-    "rhsusf_patrolcap_ocp",                                         // Patrol Cap OEF-CP
-    "rhsusf_patrolcap_ucp",                                         // Patrol Cap UCP
-    "rhsusf_protech_helmet_ess",                                    // Pro-Tech SF (ESS)
-    "rhsusf_protech_helmet_rhino_ess",                              // Pro-Tech SF (Rhino/ESS)
-    "rhsusf_protech_helmet_rhino",                                  // Pro-Tech SF (Rhino)
-    "rhsusf_protech_helmet",                                        // Pro-Tech SF
-    "H_tweed_ihps_1",                                               // Tweed IHPS   
-    "H_tweed_ihps_bare",                                            // Tweed IHPS (Bare)
-    "H_tweed_ihps_bare_rail",                                       // Tweed IHPS (Bare/Rail)
-    "H_tweed_ihps_bare_tasc_rail",                                  // Tweed IHPS (Bare/TASC/Rail)
-    "H_tweed_ihps_g",                                               // Tweed IHPS (Green)
-    "H_tweed_ihps_g_bare",                                          // Tweed IHPS (Green/Bare)
-    "H_tweed_ihps_g_bare_rail",                                     // Tweed IHPS (Green/Bare/Rail)
-    "H_tweed_ihps_g_bare_tasc_rail",                                // Tweed IHPS (Green/Bare/TASC/Rail)
-    "H_tweed_ihps_g_rail",                                          // Tweed IHPS (Green/Rail)                       
-    "H_tweed_ihps_g_tasc",                                          // Tweed IHPS (Green/TASC)
-    "H_tweed_ihps_g_tasc_bare",                                     // Tweed IHPS (Green/TASC/Bare) 
-    "H_tweed_ihps_g_tasc_rail",                                     // Tweed IHPS (Green/TASC/Rail)
-    "H_tweed_ihps_rail",                                            // Tweed IHPS (Rail)
-    "H_tweed_ihps_scrim",                                           // Tweed IHPS (Scrim)             
-    "H_tweed_ihps_scrim_g",                                         // Tweed IHPS (Scrim/Green)     
-    "H_tweed_ihps_scrim_g_rail",                                    // Tweed IHPS (Scrim/Green/Rail)              
-    "H_tweed_ihps_scrim_g_tasc",                                    // Tweed IHPS (Scrim/Green/TASC)
-    "H_tweed_ihps_scrim_rail",                                      // Tweed IHPS (Scrim/Rail)
-    "H_tweed_ihps_scrim_tasc",                                      // Tweed IHPS (Scrim/TASC)  
-    "H_tweed_ihps_tasc",                                            // Tweed IHPS (TASC)    
-    "H_tweed_ihps_tasc_bare",                                       // Tweed IHPS (TASC/Bare)
-    "H_tweed_ihps_tasc_rail",                                       // Tweed IHPS (TASC/Rail)                                                                                                     
-    "H_tweed_ihps_tasc_scrim_g_rail",                               // Tweed IHPS (TASC/Scrim/Green/Rail)
-    "H_tweed_ihps_tasc_scrim_rail",                                 // Tweed IHPS (TASC/Scrim/Rail)
-    
+    "rhs_Booniehat_ocp",  // Booniehat OEF-CP
+    "RHS_jetpilot_usaf",  // Jet Pilot Helmet
+    "rhsusf_bowman_cap",  // Bowman Elite II (Cap)
+    "rhsusf_Bowman",  // Bowman Elite II
+    "rhsusf_cvc_alt_helmet",  // ACVC-H Alt.
+    "rhsusf_cvc_ess",  // ACVC-H ESS
+    "rhsusf_cvc_green_alt_helmet",  // ACVC-H (Green/Alt.)
+    "rhsusf_cvc_green_ess",  // ACVC-H (Green/ESS)
+    "rhsusf_cvc_green_helmet",  // ACVC-H (Green)
+    "rhsusf_cvc_helmet",  // ACVC-H (Tan)
+    "rhsusf_hgu56p_black",
+    "rhsusf_hgu56p_green",
+    "rhsusf_hgu56p_mask_black_skull",
+    "rhsusf_hgu56p_mask_black",
+    "rhsusf_hgu56p_mask_green_mo",
+    "rhsusf_hgu56p_mask_green",
+    "rhsusf_hgu56p_mask_mo",
+    "rhsusf_hgu56p_mask_pink",
+    "rhsusf_hgu56p_mask_saf",
+    "rhsusf_hgu56p_mask_skull",
+    "rhsusf_hgu56p_mask_smiley",
+    "rhsusf_hgu56p_mask_tan",
+    "rhsusf_hgu56p_mask",
+    "rhsusf_hgu56p_pink",
+    "rhsusf_hgu56p_saf",
+    "rhsusf_hgu56p_tan",
+    "rhsusf_hgu56p_usa",
+    "rhsusf_hgu56p_visor_black",
+    "rhsusf_hgu56p_visor_green",
+    "rhsusf_hgu56p_visor_mask_black_skull",
+    "rhsusf_hgu56p_visor_mask_black",
+    "rhsusf_hgu56p_visor_mask_Empire_black",
+    "rhsusf_hgu56p_visor_mask_green_mo",
+    "rhsusf_hgu56p_visor_mask_green",
+    "rhsusf_hgu56p_visor_mask_mo",
+    "rhsusf_hgu56p_visor_mask_pink",
+    "rhsusf_hgu56p_visor_mask_saf",
+    "rhsusf_hgu56p_visor_mask_skull",
+    "rhsusf_hgu56p_visor_mask_smiley",
+    "rhsusf_hgu56p_visor_mask_tan",
+    "rhsusf_hgu56p_visor_mask",
+    "rhsusf_hgu56p_visor_pink",
+    "rhsusf_hgu56p_visor_saf",
+    "rhsusf_hgu56p_visor_tan",
+    "rhsusf_hgu56p_visor_usa",
+    "rhsusf_hgu56p_visor_white",
+    "rhsusf_hgu56p_visor",
+    "rhsusf_hgu56p_white",
+    "rhsusf_hgu56p",
+    "rhsusf_opscore_aor1_pelt_nsw",
+    "rhsusf_opscore_aor1_pelt",
+    "rhsusf_opscore_aor1",
+    "rhsusf_opscore_aor2_pelt_nsw",
+    "rhsusf_opscore_aor2_pelt",
+    "rhsusf_opscore_aor2",
+    "rhsusf_opscore_bk_pelt",
+    "rhsusf_opscore_bk",
+    "rhsusf_opscore_coy_cover_pelt",
+    "rhsusf_opscore_coy_cover",
+    "rhsusf_opscore_fg_pelt_cam",
+    "rhsusf_opscore_fg_pelt_nsw",
+    "rhsusf_opscore_fg_pelt",
+    "rhsusf_opscore_fg",
+    "rhsusf_opscore_mar_fg_pelt",
+    "rhsusf_opscore_mar_fg",
+    "rhsusf_opscore_mar_ut_pelt",
+    "rhsusf_opscore_mar_ut",
+    "rhsusf_opscore_mc_cover_pelt_cam",
+    "rhsusf_opscore_mc_cover_pelt_nsw",
+    "rhsusf_opscore_mc_cover_pelt",
+    "rhsusf_opscore_mc_cover",
+    "rhsusf_opscore_mc_pelt_nsw",
+    "rhsusf_opscore_mc_pelt",
+    "rhsusf_opscore_mc",
+    "rhsusf_opscore_paint_pelt_nsw_cam",
+    "rhsusf_opscore_paint_pelt_nsw",
+    "rhsusf_opscore_paint_pelt",
+    "rhsusf_opscore_paint",
+    "rhsusf_opscore_rg_cover_pelt",
+    "rhsusf_opscore_rg_cover",
+    "rhsusf_opscore_ut_pelt_cam",
+    "rhsusf_opscore_ut_pelt_nsw_cam",
+    "rhsusf_opscore_ut_pelt_nsw",
+    "rhsusf_opscore_ut_pelt",
+    "rhsusf_opscore_ut",
+    "rhsusf_patrolcap_ocp",
+    "rhsusf_patrolcap_ucp",
+    "rhsusf_protech_helmet_ess",
+    "rhsusf_protech_helmet_rhino_ess",
+    "rhsusf_protech_helmet_rhino",
+    "rhsusf_protech_helmet",
+    "H_tweed_ihps_1",
+    "H_tweed_ihps_bare",
+    "H_tweed_ihps_bare_rail",
+    "H_tweed_ihps_bare_tasc_rail",
+    "H_tweed_ihps_g",
+    "H_tweed_ihps_g_bare",
+    "H_tweed_ihps_g_bare_rail",
+    "H_tweed_ihps_g_bare_tasc_rail",
+    "H_tweed_ihps_g_rail",
+    "H_tweed_ihps_g_tasc",
+    "H_tweed_ihps_g_tasc_bare",
+    "H_tweed_ihps_g_tasc_rail",
+    "H_tweed_ihps_rail",
+    "H_tweed_ihps_scrim",
+    "H_tweed_ihps_scrim_g",
+    "H_tweed_ihps_scrim_g_rail",
+    "H_tweed_ihps_scrim_g_tasc",
+    "H_tweed_ihps_scrim_rail",
+    "H_tweed_ihps_scrim_tasc",
+    "H_tweed_ihps_tasc",
+    "H_tweed_ihps_tasc_bare",
+    "H_tweed_ihps_tasc_rail",
+    "H_tweed_ihps_tasc_scrim_g_rail",
+    "H_tweed_ihps_tasc_scrim_rail",
+
     // Facegear
-    "rhs_ess_black",                                                // Ballistic Goggles (Black)
-    "rhs_googles_black",                                            // Ballistic Glasses (Black)
-    "rhs_googles_clear",                                            // Ballistic Glasses (Clear)
-    "rhs_googles_orange",                                           // Ballistic Glasses (Clear)
-    "rhs_googles_yellow",                                           // Ballistic Glasses (Clear)
-    "rhsusf_oakley_goggles_blk",                                    // SI Ballistic 2.0 (Black)
-    "rhsusf_oakley_goggles_clr",                                    // SI Ballistic 2.0 (Clear)
-    "rhsusf_oakley_goggles_ylw",                                    // SI Ballistic 2.0 (Yellow)
-    "rhsusf_shemagh_gogg_grn",                                      // Shemagh w/ Goggles (Green)
-    "rhsusf_shemagh_gogg_od",                                       // Shemagh w/ Goggles (OD)
-    "rhsusf_shemagh_gogg_tan",                                      // Shemagh w/ Goggles (Tan)
-    "rhsusf_shemagh_gogg_white",                                    // Shemagh w/ Goggles (White)
-    "rhsusf_shemagh_grn",                                           // Shemagh (Green)
-    "rhsusf_shemagh_od",                                            // Shemagh (OD)
-    "rhsusf_shemagh_tan",                                           // Shemagh (Tan)
-    "rhsusf_shemagh_white",                                         // Shemagh (White)
-    "rhsusf_shemagh2_gogg_grn",                                     // Shemagh w/ Goggles (Green/alt)
-    "rhsusf_shemagh2_gogg_od",                                      // Shemagh w/ Goggles (OD/alt)
-    "rhsusf_shemagh2_gogg_tan",                                     // Shemagh w/ Goggles (Tan/alt)
-    "rhsusf_shemagh2_gogg_white",                                   // Shemagh w/ Goggles (White/alt)
-    "rhsusf_shemagh2_grn",                                          // Shemagh (Green/alt)
-    "rhsusf_shemagh2_od",                                           // Shemagh (OD/alt)
-    "rhsusf_shemagh2_tan",                                          // Shemagh (Tan/alt)
-    "rhsusf_shemagh2_white",                                        // Shemagh (White/alt)
+    "rhs_ess_black",
+    "rhs_googles_black",
+    "rhs_googles_clear",
+    "rhs_googles_orange",
+    "rhs_googles_yellow",
+    "rhsusf_oakley_goggles_blk",
+    "rhsusf_oakley_goggles_clr",
+    "rhsusf_oakley_goggles_ylw",
+    "rhsusf_shemagh_gogg_grn",
+    "rhsusf_shemagh_gogg_od",
+    "rhsusf_shemagh_gogg_tan",
+    "rhsusf_shemagh_gogg_white",
+    "rhsusf_shemagh_grn",
+    "rhsusf_shemagh_od",
+    "rhsusf_shemagh_tan",
+    "rhsusf_shemagh_white",
+    "rhsusf_shemagh2_gogg_grn",
+    "rhsusf_shemagh2_gogg_od",
+    "rhsusf_shemagh2_gogg_tan",
+    "rhsusf_shemagh2_gogg_white",
+    "rhsusf_shemagh2_grn",
+    "rhsusf_shemagh2_od",
+    "rhsusf_shemagh2_tan",
+    "rhsusf_shemagh2_white",
 
     // Vests
-    "rhsusf_iotv_ocp_Grenadier",                                    // IOTV (Grenadier/OEF-CP)
-    "rhsusf_iotv_ocp_Medic",                                        // IOTV (Medic/OEF-CP)
-    "rhsusf_iotv_ocp_Repair",                                       // IOTV (Repair/OEF-CP)
-    "rhsusf_iotv_ocp_Rifleman",                                     // IOTV (Rifleman/OEF-CP)
-    "rhsusf_iotv_ocp_SAW",                                          // IOTV (SAW/OCP)
-    "rhsusf_iotv_ocp_Squadleader",                                  // IOTV (Squadleader/OCP)
-    "rhsusf_iotv_ocp_Teamleader",                                   // IOTV (Teamleader/OCP)
+    "rhsusf_iotv_ocp_Grenadier",
+    "rhsusf_iotv_ocp_Medic",
+    "rhsusf_iotv_ocp_Repair",
+    "rhsusf_iotv_ocp_Rifleman",
+    "rhsusf_iotv_ocp_SAW",
+    "rhsusf_iotv_ocp_Squadleader",
+    "rhsusf_iotv_ocp_Teamleader",
     "V_tweed_iotv_mk4_1",
     "V_tweed_iotv_mk4_2",
     "V_tweed_iotv_mk4_240",
@@ -610,172 +612,139 @@ GRLIB_arsenal_items = [
     "V_tweed_msv_mk2_cell_45_2",
     "V_tweed_msv_mk2_cell_4cm_1",
     "V_tweed_msv_mk2_e_1",
-
+    "U_B_Fullghillie_ard",
+    "U_B_Fullghillie_sard",
 
     // Items
-    "rhs_acc_at4_handler",                                          // AT-4 Peep hole handler
-    "rhs_optic_maaws",                                              // M3 MAAWS sight
-    "rhs_weap_optic_smaw",                                          // SMAW sight
-    "rhsusf_acc_aac_762sd_silencer",                                // AAC 762-SD
-    "rhsusf_acc_aac_762sdn6_silencer",                              // AAC 762-SDN-6
-    "rhsusf_acc_aac_scarh_silencer",                                // AAC SCAR-H SD
-    "rhsusf_acc_ACOG_anpvs27",                                      // M150 RCO + AN/PVS-27
-    "rhsusf_acc_ACOG_d",                                            // TA31RCO (Desert)
-    "rhsusf_acc_ACOG_MDO",                                          // SU-260/P (MOD)
-    "rhsusf_acc_ACOG_RMR",                                          // TA31RCO-RMR
-    "rhsusf_acc_ACOG_USMC",                                         // AN/PVQ-31A RCO
-    "rhsusf_acc_ACOG_wd",                                           // TA31RCO (Woodland)
-    "rhsusf_acc_ACOG",                                              // M150 RCO
-    "rhsusf_acc_ACOG2_USMC",                                        // AN/PVQ-31A (ARD)
-    "rhsusf_acc_ACOG2",                                             // M150 RCO (ARD)
-    "rhsusf_acc_ACOG3_USMC",                                        // AN/PVQ-31A (ARD/Lens Cover)
-    "rhsusf_acc_ACOG3",                                             // M150 RCO (ARD/Lens Cover)
-    "rhsusf_acc_anpas13gv1",                                        // AN/PAS-13G(V)1
-    "rhsusf_acc_anpeq15_bk_light",                                  // AN/PEQ-15/M952V Black (Light)
-    "rhsusf_acc_anpeq15_bk_top",                                    // AN/PEQ-15 Black (Top)
-    "rhsusf_acc_anpeq15_bk",                                        // AN/PEQ-15/M952V Black (Laser)
-    "rhsusf_acc_anpeq15_light",                                     // AN/PEQ-15/M952V (Light)
-    "rhsusf_acc_anpeq15_top",                                       // AN/PEQ-15 (Top)
-    "rhsusf_acc_anpeq15_wmx_light",                                 // AN/PEQ-15 + WMX (light)
-    "rhsusf_acc_anpeq15_wmx",                                       // AN/PEQ-15 + WMX (laser)
-    "rhsusf_acc_anpeq15",                                           // AN/PEQ-15/M952V (Laser)
-    "rhsusf_acc_anpeq15A",                                          // AN/PEQ-15A
-    "rhsusf_acc_anpeq15side_bk",                                    // AN/PEQ-15 Black
-    "rhsusf_acc_anpeq15side",                                       // AN/PEQ-15
-    "rhsusf_acc_anpeq16a_light_top",                                // AN/PEQ-16A (Top/Light)
-    "rhsusf_acc_anpeq16a_light",                                    // AN/PEQ-16A (Light)
-    "rhsusf_acc_anpeq16a_top",                                      // AN/PEQ-16A (Top/Laser)
-    "rhsusf_acc_anpeq16a",                                          // AN/PEQ-16A (Laser)
-    "rhsusf_acc_anpvs27",                                           // AN/PVS-27
-    "rhsusf_acc_ARDEC_M240",                                        // ARDEC 4-Prong
-    "rhsusf_acc_compm4",                                            // M68 CCO
-    "rhsusf_acc_ELCAN_ard",                                         // M145 MGO (ARD)
-    "rhsusf_acc_ELCAN",                                             // M145 MGO
-    "rhsusf_acc_eotech_552_d",                                      // M552 CCO (Desert)
-    "rhsusf_acc_eotech_552_wd",                                     // M552 CCO (Woodland)
-    "rhsusf_acc_eotech_552",                                        // M552 CCO
-    "rhsusf_acc_eotech_xps3",                                       // XPS3
-    "rhsusf_acc_EOTECH",                                            // EXPS3
-    "rhsusf_acc_g33_T1",                                            // G33 + SU-278/PVS
-    "rhsusf_acc_g33_xps3_tan",                                      // G33 + XPS3 (Tan)
-    "rhsusf_acc_g33_xps3",                                          // G33 + XPS3
-    "rhsusf_acc_grip1",                                             // Grip Pod
-    "rhsusf_acc_grip2_tan",                                         // AFG Grip (Tan)
-    "rhsusf_acc_grip2_wd",                                          // AFG Grip (Woodland)
-    "rhsusf_acc_grip2",                                             // AFG Grip
-    "rhsusf_acc_grip3_tan",                                         // TD Vertical Grip (Tan)
-    "rhsusf_acc_grip3",                                             // TD Vertical Grip
-    "rhsusf_acc_grip4_bipod",                                       // SAW Grip & Bipod
-    "rhsusf_acc_grip4",                                             // SAW Grip
-    "rhsusf_acc_harris_bipod",                                      // Harris Bipod
-    "rhsusf_acc_harris_swivel",                                     // Harris Bipod
-    "rhsusf_acc_kac_grip_saw_bipod",                                // KAC Grip & SAW Bipod
-    "rhsusf_acc_kac_grip",                                          // KAC Vertical Grip
-    "rhsusf_acc_LEUPOLDMK4_2_d",                                    // Mk. 4 M5 (Desert)
-    "rhsusf_acc_LEUPOLDMK4_2_mrds",                                 // Mk. 4 M5 (MRDS)
-    "rhsusf_acc_LEUPOLDMK4_2",                                      // Mk. 4 ER/T 6.5-20x M5
-    "rhsusf_acc_LEUPOLDMK4_d",                                      // Mk. 4 M3 (Desert)
-    "rhsusf_acc_LEUPOLDMK4_wd",                                     // Mk. 4 M3 (Woodland)
-    "rhsusf_acc_LEUPOLDMK4",                                        // Mk. 4 ER/T 3.5-10x M3
-    "rhsusf_acc_M2010S_d",                                          // TiTan (Desert)
-    "rhsusf_acc_M2010S_sa",                                         // TiTan (Semi-Arid)
-    "rhsusf_acc_M2010S_wd",                                         // TiTan (Woodland)
-    "rhsusf_acc_M2010S",                                            // TiTan
-    "rhsusf_acc_m24_muzzlehider_black",                             // M24 150X. Flash Hider
-    "rhsusf_acc_m24_muzzlehider_d",                                 // M24 150X. Flash Hider (Desert)
-    "rhsusf_acc_m24_muzzlehider_wd",                                // M24 150X. Flash Hider (Woodland)
-    "rhsusf_acc_m24_silencer_black",                                // M24 Suppressor
-    "rhsusf_acc_m24_silencer_d",                                    // M24 Suppressor (Desert)
-    "rhsusf_acc_m24_silencer_wd",                                   // M24 Suppressor (Woodland)
-    "rhsusf_acc_M2A1",                                              // M2A1 GL Sight
-    "rhsusf_acc_M8541_low_d",                                       // M8541 (low mount/Desert)
-    "rhsusf_acc_M8541_low_wd",                                      // M8541 (low mount/Woodland)
-    "rhsusf_acc_M8541_low",                                         // M8541 (low mount)
-    "rhsusf_acc_M8541_mrds",                                        // M8541 (MRDS)
-    "rhsusf_acc_M8541",                                             // M8541
-    "rhsusf_acc_M952V",                                             // M952V
-    "rhsusf_acc_mrds_c",                                            // MRDS Coyote
-    "rhsusf_acc_mrds_fwd_c",                                        // MRDS Coyote (Forward)
-    "rhsusf_acc_mrds_fwd",                                          // MRDS (Forward)
-    "rhsusf_acc_mrds",                                              // MRDS
-    "rhsusf_acc_nt4_black",                                         // NT4 QDSS (Black)
-    "rhsusf_acc_nt4_tan",                                           // NT4 QDSS (Tan)
-    "rhsusf_acc_omega9k",                                           // SILENCERCO OMEGA 9K
-    "rhsusf_acc_premier_anpvs27",                                   // M8541A + AN/PVS-27
-    "rhsusf_acc_premier_low",                                       // M8541A (low mount)
-    "rhsusf_acc_premier_mrds",                                      // M8541A SSDS (MRDS)
-    "rhsusf_acc_premier",                                           // M8541A SSDS
-    "rhsusf_acc_RM05_fwd",                                          // RM05 RMR LT726 (Forward)
-    "rhsusf_acc_RM05",                                              // RM05 RMR LT726
-    "rhsusf_acc_rotex_mp7_aor1",                                    // Rotex-II (AOR1)
-    "rhsusf_acc_rotex_mp7_desert",                                  // Rotex-II (Desert)
-    "rhsusf_acc_rotex_mp7_winter",                                  // Rotex-II (Winter)
-    "rhsusf_acc_rotex_mp7",                                         // Rotex-II (Black)
-    "rhsusf_acc_rotex5_grey",                                       // Rotex-5 (Grey)
-    "rhsusf_acc_rotex5_tan",                                        // Rotex-5 (Tan)
-    "rhsusf_acc_rvg_blk",                                           // RVG Grip (Black)
-    "rhsusf_acc_rvg_de",                                            // RVG Grip (Dark Earth)
-    "rhsusf_acc_RX01_NoFilter_tan",                                 // RX01 Tan (w/o Filter)
-    "rhsusf_acc_RX01_NoFilter",                                     // RX01 (w/o Filter)
-    "rhsusf_acc_RX01_tan",                                          // RX01 Reflex Tan
-    "rhsusf_acc_RX01",                                              // RX01 Reflex
-    "rhsusf_acc_saw_bipod",                                         // SAW Bipod
-    "rhsusf_acc_saw_lw_bipod",                                      // SAW Improved Bipod
-    "rhsusf_acc_SF3P556",                                           // SF3P-556-1/2-28
-    "rhsusf_acc_SFMB556",                                           // SFMB-556-1/2-28
-    "rhsusf_acc_SR25S_d",                                           // SR-25 Rifle Suppressor (Desert)
-    "rhsusf_acc_SR25S_wd",                                          // SR-25 Rifle Suppressor (Woodland)
-    "rhsusf_acc_SR25S",                                             // SR-25 Rifle Suppressor
-    "rhsusf_acc_su230_c",                                           // SU-230/PVS Coyote
-    "rhsusf_acc_su230_mrds_c",                                      // SU-230/PVS MRDS Coyote
-    "rhsusf_acc_su230_mrds",                                        // SU-230/PVS MRDS
-    "rhsusf_acc_su230",                                             // SU-230/PVS
-    "rhsusf_acc_su230a_c",                                          // SU-230A/PVS Coyote
-    "rhsusf_acc_su230a_mrds_c",                                     // SU-230A/PVS MRDS Coyote
-    "rhsusf_acc_su230a_mrds",                                       // SU-230A/PVS MRDS
-    "rhsusf_acc_su230a",                                            // SU-230A/PVS
-    "rhsusf_acc_T1_high",                                           // SU-278/PVS LT660
-    "rhsusf_acc_T1_low_fwd",                                        // SU-278/PVS LT661 (Forward)
-    "rhsusf_acc_T1_low",                                            // SU-278/PVS LT661
-    "rhsusf_acc_tacsac_blk",                                        // Tac-Sac Grip (Black)
-    "rhsusf_acc_tacsac_blue",                                       // Tac-Sac Grip (Blue)
-    "rhsusf_acc_tacsac_tan",                                        // Tac-Sac Grip (Tan)
-    "rhsusf_acc_tdstubby_blk",                                      // TD Stubby Grip (Black)
-    "rhsusf_acc_tdstubby_tan",                                      // TD Stubby Grip (Tan)
-    "rhsusf_acc_wmx_bk",                                            // WMX Flashlight (Black)
-    "rhsusf_acc_wmx",                                               // WMX Flashlight
-    "rhsusf_ANPVS_14",                                              // AN/PVS-14
-    "rhsusf_ANPVS_15",                                              // AN/PVS-15
-    "rhsusf_bino_leopold_mk4",                                      // M151 Spotting Scope
-    "rhsusf_bino_lerca_1200_black",                                 // Lecra 1200 Rangefinder (Black)
-    "rhsusf_bino_lerca_1200_tan",                                   // Lecra 1200 Rangefinder (Tan)
-    "rhsusf_bino_lrf_Vector21",                                     // Vecrot 21-B
-    "rhsusf_bino_m24_ARD",                                          // M24 Binoculars (ARD)
-    "rhsusf_bino_m24",                                              // M24 Binoculars
-    "rhsusf_Rhino",                                                 // Rhino mount
-
-    // Vanilla Standard Items
-    "acc_flashlight_pistol",                                        // Pistol Flashlight
-    "B_UavTerminal",                                                // UAV Terminal [NATO]
-    "DroneDetector",                                                // Drone Detector
-    "FirstAidKit",                                                  // First Aid Kit
-    "G_B_Diving",                                                   // Diving Goggles [NATO]
-    "ItemCompass",                                                  // Compass
-    "ItemGPS",                                                      // GPS
-    "ItemMap",                                                      // Map
-    "ItemRadio",                                                    // Radio
-    "ItemWatch",                                                    // Watch
-    "Medikit",                                                      // Medikit
-    "MineDetector",                                                 // Mine Detector
-    "ToolKit",                                                      // Toolkit
-    "U_B_FullGhillie_ard",                                          // Full Ghillie (Arid) [NATO]
-    "U_B_FullGhillie_lsh",                                          // Full Ghillie (Lush) [NATO]
-    "U_B_FullGhillie_sard",                                         // Full Ghillie (Semi-Arid) [NATO]
-    "U_B_HeliPilotCoveralls",                                       // Heli Pilot Coveralls [NATO]
-    "U_B_PilotCoveralls",                                           // Pilot Coveralls [NATO]
-    "U_B_T_FullGhillie_tna_F",                                      // Full Ghillie (Jungle) [NATO]
-    "U_B_Wetsuit",                                                  // Wetsuit [NATO]
-    "V_RebreatherB"                                                // Rebreather [NATO]
+    "rhs_acc_at4_handler",
+    "rhs_optic_maaws",
+    "rhs_weap_optic_smaw",
+    "rhsusf_acc_aac_762sd_silencer",
+    "rhsusf_acc_aac_762sdn6_silencer",
+    "rhsusf_acc_aac_scarh_silencer",
+    "rhsusf_acc_ACOG_anpvs27",
+    "rhsusf_acc_ACOG_d",
+    "rhsusf_acc_ACOG_MDO",
+    "rhsusf_acc_ACOG_RMR",
+    "rhsusf_acc_ACOG_USMC",
+    "rhsusf_acc_ACOG_wd",
+    "rhsusf_acc_ACOG",
+    "rhsusf_acc_ACOG2_USMC",
+    "rhsusf_acc_ACOG2",
+    "rhsusf_acc_ACOG3_USMC",
+    "rhsusf_acc_ACOG3",
+    "rhsusf_acc_anpas13gv1",
+    "rhsusf_acc_anpeq15_bk_light",
+    "rhsusf_acc_anpeq15_bk_top",
+    "rhsusf_acc_anpeq15_bk",
+    "rhsusf_acc_anpeq15_light",
+    "rhsusf_acc_anpeq15_top",
+    "rhsusf_acc_anpeq15_wmx_light",
+    "rhsusf_acc_anpeq15_wmx",
+    "rhsusf_acc_anpeq15",
+    "rhsusf_acc_anpeq15A",
+    "rhsusf_acc_anpeq15side_bk",
+    "rhsusf_acc_anpeq15side",
+    "rhsusf_acc_anpeq16a_light_top",
+    "rhsusf_acc_anpeq16a_light",
+    "rhsusf_acc_anpeq16a_top",
+    "rhsusf_acc_anpeq16a",
+    "rhsusf_acc_anpvs27",
+    "rhsusf_acc_ARDEC_M240",
+    "rhsusf_acc_compm4",
+    "rhsusf_acc_ELCAN_ard",
+    "rhsusf_acc_ELCAN",
+    "rhsusf_acc_eotech_552_d",
+    "rhsusf_acc_eotech_552_wd",
+    "rhsusf_acc_eotech_552",
+    "rhsusf_acc_eotech_xps3",
+    "rhsusf_acc_EOTECH",
+    "rhsusf_acc_g33_T1",
+    "rhsusf_acc_g33_xps3_tan",
+    "rhsusf_acc_g33_xps3",
+    "rhsusf_acc_grip1",
+    "rhsusf_acc_grip2_tan",
+    "rhsusf_acc_grip2_wd",
+    "rhsusf_acc_grip2",
+    "rhsusf_acc_grip3_tan",
+    "rhsusf_acc_grip3",
+    "rhsusf_acc_grip4_bipod",
+    "rhsusf_acc_grip4",
+    "rhsusf_acc_harris_bipod",
+    "rhsusf_acc_harris_swivel",
+    "rhsusf_acc_kac_grip_saw_bipod",
+    "rhsusf_acc_kac_grip",
+    "rhsusf_acc_LEUPOLDMK4_2_d",
+    "rhsusf_acc_LEUPOLDMK4_2_mrds",
+    "rhsusf_acc_LEUPOLDMK4_2",
+    "rhsusf_acc_LEUPOLDMK4_d",
+    "rhsusf_acc_LEUPOLDMK4_wd",
+    "rhsusf_acc_LEUPOLDMK4",
+    "rhsusf_acc_M2010S_d",
+    "rhsusf_acc_M2010S_sa",
+    "rhsusf_acc_M2010S_wd",
+    "rhsusf_acc_M2010S",
+    "rhsusf_acc_m24_muzzlehider_black",
+    "rhsusf_acc_m24_muzzlehider_d",
+    "rhsusf_acc_m24_muzzlehider_wd",
+    "rhsusf_acc_m24_silencer_black",
+    "rhsusf_acc_m24_silencer_d",
+    "rhsusf_acc_m24_silencer_wd",
+    "rhsusf_acc_M2A1",
+    "rhsusf_acc_M8541_low_d",
+    "rhsusf_acc_M8541_low_wd",
+    "rhsusf_acc_M8541_low",
+    "rhsusf_acc_M8541_mrds",
+    "rhsusf_acc_M8541",
+    "rhsusf_acc_M952V",
+    "rhsusf_acc_mrds_c",
+    "rhsusf_acc_mrds_fwd_c",
+    "rhsusf_acc_mrds_fwd",
+    "rhsusf_acc_mrds",
+    "rhsusf_acc_nt4_black",
+    "rhsusf_acc_nt4_tan",
+    "rhsusf_acc_omega9k",
+    "rhsusf_acc_premier_anpvs27",
+    "rhsusf_acc_premier_low",
+    "rhsusf_acc_premier_mrds",
+    "rhsusf_acc_premier",
+    "rhsusf_acc_RM05_fwd",
+    "rhsusf_acc_RM05",
+    "rhsusf_acc_rotex_mp7_aor1",
+    "rhsusf_acc_rotex_mp7_desert",
+    "rhsusf_acc_rotex_mp7_winter",
+    "rhsusf_acc_rotex_mp7",
+    "rhsusf_acc_rotex5_grey",
+    "rhsusf_acc_rotex5_tan",
+    "rhsusf_acc_rvg_blk",
+    "rhsusf_acc_rvg_de",
+    "rhsusf_acc_RX01_NoFilter_tan",
+    "rhsusf_acc_RX01_NoFilter",
+    "rhsusf_acc_RX01_tan",
+    "rhsusf_acc_RX01",
+    "rhsusf_acc_saw_bipod",
+    "rhsusf_acc_saw_lw_bipod",
+    "rhsusf_acc_SF3P556",
+    "rhsusf_acc_SFMB556",
+    "rhsusf_acc_SR25S_d",
+    "rhsusf_acc_SR25S_wd",
+    "rhsusf_acc_SR25S",
+    "rhsusf_acc_su230_c",
+    "rhsusf_acc_su230_mrds_c",
+    "rhsusf_acc_su230_mrds",
+    "rhsusf_acc_su230",
+    "rhsusf_acc_su230a_c",
+    "rhsusf_acc_su230a_mrds_c",
+    "rhsusf_acc_su230a_mrds",
+    "rhsusf_acc_su230a",
+    "rhsusf_acc_T1_high",
+    "rhsusf_acc_T1_low",
+    "rhsusf_acc_wmx_bk",
+    "rhsusf_acc_wmx",
+    "rhsusf_ANPVS_14",
+    "rhsusf_ANPVS_15",
+    "rhsusf_Rhino",
+    "rhsusf_acc_M2010S_sa"
 ];
 
 GRLIB_arsenal_items =[
@@ -835,6 +804,7 @@ GRLIB_arsenal_items =[
     "ACE_NVG_Gen2",                        // NV Goggles (Gen2)
     "ACE_NVG_Gen4",                        // NV Goggles (Gen4)
     "ACE_NVG_Wide",                        // NV Goggles (Wide)
+    "psq42_blk_icup",                      // PSQ-42 (Black) w/Eye Cup
 
     // --- Medical (ACE vanilla) ---
     "ACE_elasticBandage",                  // Bandage (Elastic)
@@ -947,8 +917,10 @@ GRLIB_arsenal_items =[
     "tf_fadak",                                                     // FADAK
     "tf_microdagr",                                                 // MicroDAGR Radio Programmer
     "tf_pnr1000a_1",                                                // PNR-1000A
-    "tf_rf7800str",                                                  // PF-7800S-TR
-    "B_simc_US_Molle_sturm_OCP_RTO_wasser"
+    "tf_rf7800str",                                                 // PF-7800S-TR
+    "B_simc_US_Molle_sturm_OCP_RTO_wasser",                         // Molle Sturm RTO (OCP) with Water
+    "UK3CB_B_B_Tactical_Backpack_Radio"                             // UK3CB Tactical Backpack (Radio)
+
 
 ];
 
