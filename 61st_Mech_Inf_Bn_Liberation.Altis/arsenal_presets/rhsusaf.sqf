@@ -546,6 +546,7 @@ GRLIB_arsenal_items = [
     "H_tweed_ihps_tasc_rail",
     "H_tweed_ihps_tasc_scrim_g_rail",
     "H_tweed_ihps_tasc_scrim_rail",
+    "rhsusf_ihadss",
 
     // Facegear
     "rhs_ess_black",
@@ -744,7 +745,10 @@ GRLIB_arsenal_items = [
     "rhsusf_ANPVS_14",
     "rhsusf_ANPVS_15",
     "rhsusf_Rhino",
-    "rhsusf_acc_M2010S_sa"
+    "rhsusf_acc_M2010S_sa",
+    "MS_Strobe_Mag_2",
+    "ICM_SLX_Suppressor_Arid_F"
+
 ];
 
 GRLIB_arsenal_items =[
