@@ -432,6 +432,7 @@ GRLIB_arsenal_items = [
     "U_tweed_acu_summer_ocp_unbl",
     "U_tweed_acu_summer_ocp_unbl_jedi",
     "U_tweed_acu_summer_ocp_unbl_trop",
+    "U_tweed_acu_summer_ocp_crye_knee_trop",
 
     // Headgear
     "rhs_Booniehat_ocp",  // Booniehat OEF-CP
@@ -750,8 +751,10 @@ GRLIB_arsenal_items = [
     "rhsusf_Rhino",
     "rhsusf_acc_M2010S_sa",
     "MS_Strobe_Mag_2",
-    "ICM_SLX_Suppressor_Arid_F"
-
+    "ICM_SLX_Suppressor_Arid_F",
+    "ItemRadio",                            //Radio
+    "MineDetector",                         //Mine Detector
+    "rhsusf_acc_su230_mrds"                 // SU-230 ACOG 
 ];
 
 GRLIB_arsenal_items =[

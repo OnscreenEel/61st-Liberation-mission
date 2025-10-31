@@ -76,11 +76,15 @@ infantry_units = [
 
 light_vehicles = [
     ["B_Quadbike_01_F",50,0,25],                                        // Quad Bike
+    ["rhsusf_mrzr4_d",75,0,25],                                          // MRZR-4
+    ["rhsusf_m1165a1_gmv_m134d_m240_socom_d",200,150,75],               // GMV-SOCOM
+    ["rhsusf_m1165a1_gmv_mk19_m240_socom_d",200,200,75],                // GMV-SOCOM (Mk19)
+    ["rhsusf_m1165a1_gmv_m2_m240_socom_d",200,100,75],                  // GMV-SOCOM (M2)
     ["rhsusf_m1240a1_usarmy_d",100,0,50],                               // M1240A1
     ["rhsusf_m1240a1_m2_uik_usarmy_d",100,40,50],                       // M1240A1 (M2)
     ["rhsusf_m1240a1_m240_uik_usarmy_d",100,20,50],                     // M1240A1 (M240)
     ["rhsusf_m1240a1_mk19_uik_usarmy_d",100,100,50],                    // M1240A1 (Mk19)
-    ["rhsusf_m1240a1_m2crows_usarmy_d",150,40,50],                      //M12401A1 (M2/CROWS)
+    ["rhsusf_m1240a1_m2crows_usarmy_d",150,40,50],                      // M12401A1 (M2/CROWS)
     ["rhsusf_m1240a1_mk19crows_usarmy_d",150,100,50],                   // M1240A1 (Mk19/CROWS)
     ["rhsusf_m1025_wd",100,0,50],                                       // M1025A2
     ["rhsusf_m1025_w_m2",100,40,50],                                    // M1025A2 (M2)
@@ -105,7 +109,7 @@ light_vehicles = [
     ["rhsusf_M977A4_AMMO_M2_usarmy_d",125,240,75],                      // M977A4 Ammo (HMG)
     ["rhsusf_M977A4_REPAIR_usarmy_d",200,0,200],                        // M978A4 Repair
     ["UK3CB_B_MTVR_Transport_DES",100,0,50],                            // MTVR Transport
-    ["UK3CB_B_MTVR_Recovery_DES",100,0,50],                            // MTVR Recovery
+    ["UK3CB_B_MTVR_Recovery_DES",100,0,50],                             // MTVR Recovery
     ["rhsusf_M1117_W",150,50,50],                                       // M1117 ASV
     ["B_UGV_01_F",150,0,50],                                            // UGV Stomper
     ["B_UGV_01_rcws_F",150,40,50],                                      // UGV Stomper (RCWS)
@@ -116,25 +120,25 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
-    ["rhsusf_m113_usarmy",200,40,100],                                  // M113A3 (M2)
-    ["rhsusf_m113_usarmy_mk19",200,60,100],                             // M113A3 (Mk19)
+    ["rhsusf_stryker_m1126_mk19_d",200,60,100],                         // M1126 Stryker (Mk19)
+    ["rhsusf_stryker_m1126_m2_d",200,40,100],                           // M1126 Stryker (M2)
     ["rhsusf_m113_usarmy_medical",200,0,100],                           // M113A3 (Medical)
     ["rhsusf_stryker_m1126_m2_wd",200,150,100],                         // M1126 Stryker (M2)
-    ["rhs_m2a3_busk_iii_wd",300,250,175],                               // M2A3 BUSK III
     ["rhs_m6_wd",300,250,175],                                          // M6A2 Linebacker
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (TUSK I)
     ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                     // M1A2 SEP v1 (TUSK II)
     ["rhsusf_m1a2sep2d_usarmy",500,500,300],                            // M1A2 SEP v2 (TUSK III)
-    ["rhs_m2a3_busk_iii",350,300,300],                                  // M2A3 BUSK III (Desert)
+    ["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
+    ["RHS_M2A3_BUSKIII",300,250,175],                                   // M2A3 (Busk III)
     ["rhs_m6",425,365,225],                                             // M6A3 Linebacker (Desert)
     ["rhsusf_m1120a1_usarmy_wd",250,0,150],                             // M1120A1
     ["rhsusf_m1120a1_m2_usarmy_wd",250,40,150],                         // M1120A1 (M2)
     ["rhsusf_m1120a1_mk19_usarmy_wd",250,60,150],                       // M1120A1 (Mk19)
     ["rhsusf_m1120a1_m153_m2_usarmy_wd",275,40,150],                    // M1120A1 (M2 CROWS)
     ["rhsusf_m1120a1_m153_mk19_usarmy_wd",275,60,150],                  // M1120A1 (Mk19 CROWS)
-    ["rhsusf_m109_usarmy",600,1250,300],                                 // M109A6 Paladin
-    ["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
-    ["RHS_M2A3_BUSKIII",300,250,175]                                   // M2A3 (Busk III)
+    ["rhsusf_m109_usarmy",600,1250,300],                                // M109A6 Paladin
+    ["UK3CB_B_M270_MLRS_HE_DES",800,1500,400]                           // M270 MLRS 
+
 ];
 
 air_vehicles = [
@@ -148,6 +152,7 @@ air_vehicles = [
     ["rhs_uh60m2",250,0,150],                                           // UH-60M (Unarmed)
     ["rhs_uh60m",250,80,150],                                           // UH-60M
     ["rhs_uh60m_mev2",300,0,150],                                       // UH-60M MEV2
+    ["B_Heli_Transport_01_pylons_F",300,80,175],                        // UH-80 Ghost Hawk
     ["rhs_ch_47f_10",275,80,175],                                       // CH-47 Chinook (Armed)
     ["usaf_c130j",200,0,250],                                           // C-130J Super Hercules
     ["usaf_c130j_cargo",200,0,250],                                     // C-130J Super Hercules (Cargo)
@@ -173,7 +178,7 @@ air_vehicles = [
     ["fir_f16d_900482",1200,1250,400],                                  // F-16D Block dual seater
     ["fir_f16c_910345",1200,1250,400],                                  // F-16C Block single seater
     ["fir_fa18f_blank",1500,1750,450],                                  // F/A-18F Super Hornet Blank (dual seater)
-    ["fir_fa18e_vfa31cag",1500,1750,450],                                // F/A-18E Super Hornet VFA-31 CAG (single seater)
+    ["fir_fa18e_vfa31cag",1500,1750,450],                               // F/A-18E Super Hornet VFA-31 CAG (single seater)
     ["RHS_AH1Z",500,500,200]                                            // AH-1Z (Multi-Role)
 ];
 
@@ -187,7 +192,8 @@ static_vehicles = [
     ["rhs_m119_wd",100,200,0],                  // M119A2
     ["b_sam_system_03_f",250,500,0],            // MIM-145 Defender
     ["b_radar_system_01_f",400,0,0],            // AN/MPQ-64 Sentinel Radar
-    ["b_aaa_system_01_f",300,400,0]             // M163 Vulcan
+    ["b_aaa_system_01_f",300,400,0],             // M163 Vulcan
+    ["B_Ship_MRLS_01_F",1000,1500,0]            // MK-41 VLS
 ];
 
 
@@ -306,7 +312,8 @@ support_vehicles = [
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
     ["B_Slingload_01_Repair_F",275,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,200],                                 // Huron Fuel
-    ["B_Slingload_01_Ammo_F",75,200,0]                                  // Huron Ammo
+    ["B_Slingload_01_Ammo_F",75,200,0],                                  // Huron Ammo
+    ["StorageBladder_01_fuel_sand_F",0,0,500]                           // Fuel Bladder
 ];
 
 /*

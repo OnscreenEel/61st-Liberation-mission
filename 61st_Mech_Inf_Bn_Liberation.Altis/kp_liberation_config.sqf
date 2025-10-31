@@ -858,14 +858,16 @@ KP_liberation_allowed_items_extension = [
     "MS_Strobe_Mag_2",
     "rhsusf_ihadss",
     "ICM_SLX_Suppressor_Arid_F",
-    "ItemCompass",                                               // Compass
-    "ItemMap",                                                   // Map
-    "ACRE_PRC152",                                               // AN/PRC-152
-    "Laserdesignator",                                           // Laser Designator
-    "Laserbatteries",                                            // Laser Designator Batteries
-    "LOP_Laserbatteries"                                         // Laser Designator Batteries
-
-
+    "ItemCompass",                                          // Compass
+    "ItemMap",                                              // Map
+    "ACRE_PRC152",                                          // AN/PRC-152
+    "Laserdesignator",                                      // Laser Designator
+    "Laserbatteries",                                       // Laser Designator Batteries
+    "LOP_Laserbatteries",                                   // Laser Designator Batteries
+    "ItemRadio",                                            // Radio    
+    "U_tweed_acu_summer_ocp_crye_knee_trop",                // ACU Uniform with Crye Kneepads (Tropic)
+    "MineDetector",                                          // Mine Detector 
+    "rhsusf_acc_su230_mrds"                                 // SU-230/PEQ   
 ];
 
 /* - Configuration settings for crates transported by vehicles.
