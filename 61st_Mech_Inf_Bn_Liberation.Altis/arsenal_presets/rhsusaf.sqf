@@ -361,6 +361,9 @@ GRLIB_arsenal_magazines = [
     "WNZ_EMP_MAAWS_Mag",
     "MRAWS_HE_F",
 
+    "Laserbatteries",                                            // Laser Designator Batteries
+    "LOP_Laserbatteries",                                         // Laser Designator Batteries
+
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
     "APERSMine_Range_Mag",                                          // APERS Mine
@@ -794,6 +797,7 @@ GRLIB_arsenal_items =[
     "ACE_VMM3",                            // VMM3
     "ACE_wirecutter",                      // Wirecutter
     "ACE_Yardage450",                      // Yardage 450
+    "Laserdesignator",                    // Laser Designator
 
     // --- Suppressors (ACE) ---
     "ACE_muzzle_mzls_338",                 // Flash Suppressor (.338)
@@ -840,9 +844,11 @@ GRLIB_arsenal_items =[
     "ACE_bodyBag",                         // Bodybag
 
     // --- cTab / Android ---
-    "ItemAndroid",
-    "ItemcTabHCam",
-    "ItemcTabMisc",
+    "ItemAndroid",                         // Android Device
+    "ItemcTabHCam",                        // cTab Handheld Camera
+    "ItemcTabMisc",                        // cTab Misc. Module
+    "ItemCompass",                         // Compass
+    "ItemMap",                             // Map
 
     // --- ACM (Advanced/Custom Medical) ---
     "ACM_ACCUVAC",

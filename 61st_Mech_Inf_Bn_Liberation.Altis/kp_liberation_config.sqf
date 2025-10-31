@@ -857,7 +857,14 @@ KP_liberation_allowed_items_extension = [
     "H_tweed_ihps_tasc_scrim_rail",
     "MS_Strobe_Mag_2",
     "rhsusf_ihadss",
-    "ICM_SLX_Suppressor_Arid_F"
+    "ICM_SLX_Suppressor_Arid_F",
+    "ItemCompass",                                               // Compass
+    "ItemMap",                                                   // Map
+    "ACRE_PRC152",                                               // AN/PRC-152
+    "Laserdesignator",                                           // Laser Designator
+    "Laserbatteries",                                            // Laser Designator Batteries
+    "LOP_Laserbatteries"                                         // Laser Designator Batteries
+
 
 ];
 
