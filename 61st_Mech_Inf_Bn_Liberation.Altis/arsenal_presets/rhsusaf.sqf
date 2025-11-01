@@ -907,6 +907,9 @@ GRLIB_arsenal_items =[
     "ACM_Vial_Ondansetron",
     "ACM_Vial_TXA",
     "ACM_WoundPackingKit",
+    "ACM_Bloodbag_ON_1000",
+    "ACM_Bloodbag_ON_500",
+    "ACM_Bloodbag_ON_250",
 
     // --- Dragon / SMAW Sight (ACE/RHS bridge) ---
     "ace_dragon_sight",                     // SU-36/P Daysight
