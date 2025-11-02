@@ -433,6 +433,7 @@ GRLIB_arsenal_items = [
     "U_tweed_acu_summer_ocp_unbl_jedi",
     "U_tweed_acu_summer_ocp_unbl_trop",
     "U_tweed_acu_summer_ocp_crye_knee_trop",
+    "U_B_PilotCoveralls",                       // USAF Pilot Coveralls
 
     // Headgear
     "rhs_Booniehat_ocp",  // Booniehat OEF-CP
@@ -551,6 +552,7 @@ GRLIB_arsenal_items = [
     "H_tweed_ihps_tasc_scrim_g_rail",
     "H_tweed_ihps_tasc_scrim_rail",
     "rhsusf_ihadss",
+    "H_PilotHelmetFighter_B",
 
     // Facegear
     "rhs_ess_black",

@@ -867,7 +867,9 @@ KP_liberation_allowed_items_extension = [
     "ItemRadio",                                            // Radio    
     "U_tweed_acu_summer_ocp_crye_knee_trop",                // ACU Uniform with Crye Kneepads (Tropic)
     "MineDetector",                                          // Mine Detector 
-    "rhsusf_acc_su230_mrds"                                 // SU-230/PEQ   
+    "rhsusf_acc_su230_mrds",                                 // SU-230/PEQ  
+    "U_B_PilotCoveralls",
+    "H_PilotHelmetFighter_B"
 ];
 
 /* - Configuration settings for crates transported by vehicles.
