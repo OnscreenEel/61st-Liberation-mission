@@ -256,6 +256,9 @@ buildings = [
     ["Land_Sign_WarningMilitaryVehicles_F",0,0,0],
     ["Land_Razorwire_F",0,0,0],
     ["Land_ClutterCutter_large_F",0,0,0]
+    ["US_WarfareBBarrier10xTall_EP1",0,0,0],
+    ["USMC_WarfareBBarracks",0,0,0],
+    ["TK_WarfareBBarrier10x_EP1",0,0,0]
 ];
 
 support_vehicles = [
