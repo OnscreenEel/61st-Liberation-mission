@@ -116,7 +116,8 @@ light_vehicles = [
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
     ["B_Boat_Armed_01_minigun_F",200,80,75],                            // Speedboat Minigun
     ["rhsusf_mkvsoc",250,200,100],                                      // Mk.V SOCOM
-    ["B_SDV_01_F",150,0,50]                                             // SDV
+    ["B_SDV_01_F",150,0,50],                                            // SDV
+    ["rhsusf_m1151_m2_lras3_v1_usarmy_d",200,40,100]                    // M1151 LRAS3/M2
 ];
 
 heavy_vehicles = [
@@ -137,7 +138,8 @@ heavy_vehicles = [
     ["rhsusf_m1120a1_m153_m2_usarmy_wd",275,40,150],                    // M1120A1 (M2 CROWS)
     ["rhsusf_m1120a1_m153_mk19_usarmy_wd",275,60,150],                  // M1120A1 (Mk19 CROWS)
     ["rhsusf_m109_usarmy",600,1250,300],                                // M109A6 Paladin
-    ["UK3CB_B_M270_MLRS_HE_DES",800,1500,400]                           // M270 MLRS 
+    ["UK3CB_B_M270_MLRS_HE_DES",800,1500,400],                           // M270 MLRS 
+    ["rhsusf_M142_usarmy_D",800,1500,400]                               // M142 HIMARS
 
 ];
 
@@ -179,7 +181,11 @@ air_vehicles = [
     ["fir_f16c_910345",1200,1250,400],                                  // F-16C Block single seater
     ["fir_fa18f_blank",1500,1750,450],                                  // F/A-18F Super Hornet Blank (dual seater)
     ["fir_fa18e_vfa31cag",1500,1750,450],                               // F/A-18E Super Hornet VFA-31 CAG (single seater)
-    ["RHS_AH1Z",500,500,200]                                            // AH-1Z (Multi-Role)
+    ["B_CTRG_Heli_Transport_01_DAP_F",300,80,175],                       // UH-80 Ghost Hawk (DAP)
+    ["vtx_MH60M_DAP_MLASS",300,80,175],                                  // UH-60M DAP (MLASS)
+    ["vtx_UH60M_MEDEVAC",300,0,175],                                     // UH-60 MEDEVAC
+    ["vtx_HH60",300,80,175],
+    ["vtx_UH60M",300,80,175]
 ];
 
 static_vehicles = [
@@ -192,7 +198,7 @@ static_vehicles = [
     ["rhs_m119_wd",100,200,0],                  // M119A2
     ["b_sam_system_03_f",250,500,0],            // MIM-145 Defender
     ["b_radar_system_01_f",400,0,0],            // AN/MPQ-64 Sentinel Radar
-    ["b_aaa_system_01_f",300,400,0],             // M163 Vulcan
+    ["b_aaa_system_01_f",300,400,0],            // M163 Vulcan
     ["B_Ship_MRLS_01_F",1000,1500,0]            // MK-41 VLS
 ];
 
