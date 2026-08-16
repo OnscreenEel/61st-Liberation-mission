@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"C:/Users/ONSCRE~1/AppData/Local/Temp/claude/C--Users-OnscreenEel-Downloads-61st-Mech-Inf-Bn-Liberation-Altis/91ed7f1d-723c-4426-be78-585a33e9770a/scratchpad/sqfcheck.py\")",
+      "Bash(python -c \"import xml.etree.ElementTree as ET; ET.parse\\('stringtable.xml'\\); print\\('stringtable.xml: well-formed OK'\\)\")"
+    ]
+  }
+}
